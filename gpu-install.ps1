@@ -33,13 +33,14 @@ function Install-Driver {
 
     # Download the driver installer
     Write-Output 'Downloading the NVIDIA driver installer...'
-    Invoke-WebRequest -Uri $url -OutFile $file_dir -UseBasicParsing
+    Start-BitsTransfer -Source $url -Destination $file_dir -TransferType Download -Priority High
 
     # Install the driver
     Write-Output 'Installing the NVIDIA driver...'
     Start-Process -FilePath $file_dir -ArgumentList $install_args -Wait
     Write-Output 'Driver installation complete!'
 }
+
 
 # Start the driver installation process
 Install-Driver
