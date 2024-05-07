@@ -1,0 +1,29 @@
+{
+	"__type__": "RepPreferencesAttribute",
+	"ChangedValues":
+	{
+		"Bools":
+		{
+			"Disclaimer Accept Status": true,
+			"Virtual Camera Driver": false
+		},
+		"EnabledEditConditions": [
+			"Custom Resolution",
+			"Anti-Aliasing",
+			"Built-in Resolution Scale",
+			"FocalLength",
+			"NEURON_LocalEndPoint",
+			"NEURON_RemoteEndPoint",
+			"NEURON_UDPRecvPort",
+			"SERV_RadicalRoomID",
+			"SERV_RadicalAccountKey",
+			"Aperture",
+			"AvatarFocalLength",
+			"AvatarAperture",
+			"DLSS Mode",
+			"Use Ray Tracing",
+			"Resolution scale"
+		]
+	},
+	"AttributeName": "Preferences"
+}

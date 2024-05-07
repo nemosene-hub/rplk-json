@@ -1,0 +1,33 @@
+{
+	"__type__": "BPPreferencesSaveData_C",
+	"HighResShotMultiplier": 1,
+	"UseDateTimeScreenshotName": true,
+	"ScreenshotResX": 1920,
+	"ScreenshotResY": 1080,
+	"VideoRenderQuality": 4,
+	"UserUIScale": 1,
+	"TargetLivelinkOSC": "192.168.0.18",
+	"ScalabilitySettings":
+	{
+		"Overall": 5,
+		"View Distance": 3,
+		"Anti Aliasing": 3,
+		"Post Processing": 3,
+		"Shadows": 3,
+		"Textures": 3,
+		"Effects": 3,
+		"Foliage": 3,
+		"Shading": 3
+	},
+	"DefaultLeapMode": "Desktop",
+	"LeapTilt": 0,
+	"ShowLeapPreview": true,
+	"AntiAliasingMethod": "AAM_TemporalAA",
+	"bOverrideReplikantUserFolder": false,
+	"UserFolderOverride": "C:/Users/replikant/Documents/Replikant/",
+	"UserAssetSubfolder": "",
+	"bEnableGizmoFloatingOptions": false,
+	"PaksDirectory": "",
+	"PaksSyncedLocalDirectory": "",
+	"Version": 0
+}
