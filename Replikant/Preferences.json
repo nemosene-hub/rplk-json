@@ -5,6 +5,7 @@
 		"Bools":
 		{
 			"Disclaimer Accept Status": true,
+			"DisplayAiBudgetWarnings": false,
 			"Virtual Camera Driver": false
 		},
 		"EnabledEditConditions": [
